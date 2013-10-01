@@ -56,7 +56,7 @@ Rails::Initializer.run do |config|
   # no regular words or you'll be exposed to dictionary attacks.
   config.action_controller.session = {
     :session_key => '_BIG-Help-2_session',
-    :secret      => '30822f25f410abefca60fdbd999f2e817a4c331b1ed61dfe0f5c04dcc8cf1421e5d04855296f996e0dce13ffaa10d2114da145c3776d55cf105bea93459d5135'
+    :secret      => '308ddd22f25f410abbbbmmefca60fdbd999f2e817a4c331b1ed61dfe0f5c04dcc8cf1421e5d04855296f996e0dce13ffaa10d2114da145c3776d55cf105bea93459d5135'
   }
   
   config.gem 'mislav-will_paginate', :version => '~> 2.2.3', :lib => 'will_paginate', :source => 'http://gems.github.com'
@@ -75,3 +75,6 @@ Rails::Initializer.run do |config|
   # Please note that observers generated using script/generate observer need to have an _observer suffix
   # config.active_record.observers = :cacher, :garbage_collector, :forum_observer
 end
+
+RECAPTCHA_PUBLIC_KEY='6LdbcLoSAAAAAB0wZIT2Fq324Ew-oEEt40vJE72L'
+RECAPTCHA_PRIVATE_KEY= '6LdbcLoSAAAAAPS5WtEw13KIcftzAieXHQCBTbGE'

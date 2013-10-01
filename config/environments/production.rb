@@ -22,3 +22,5 @@ config.action_controller.perform_caching             = true
 
 # Disable delivery errors, bad email addresses will be ignored
 # config.action_mailer.raise_delivery_errors = false
+ENV['RECAPTCHA_PUBLIC_KEY']='6LdbcLoSAAAAAB0wZIT2Fq324Ew-oEEt40vJE72L'
+ENV['RECAPTCHA_PRIVATE_KEY']= '6LdbcLoSAAAAAPS5WtEw13KIcftzAieXHQCBTbGE'

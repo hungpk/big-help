@@ -1,21 +1,21 @@
 # Some basic info about your company
-company_name: BIG Folio and NextProof
-from_email: help@bigfolio.com
+company_name: Appiphany Ltd
+from_email: support@appiphany.com.au
 support_phone: 805-504-1126
 
 # Your custom field label
 custom_label: Dog or cat?
 
 # Can customers attach files?
-customer_attachments: false
+customer_attachments: true
 
 # Where does your contact link go?
-contact: http://www.bigfolio.com/contact
+contact: http://www.appiphany.com.au/contact
 
 # External links for the top nav section
 nav_links:
-    - website designs: http://www.bigfolio.com/website-designs
-    - company: http://www.bigfolio.com/about
-    - testimonials: http://www.bigfolio.com/testimonials
-    - contact: http://www.bigfolio.com/contact
-    - blog: http://bfstop.bigfolioblog.com/
+    - Folio: http://www.appiphany.com.au/folio
+    - company: http://www.appiphany.com.au/about
+    - testimonials: http://www.appiphany.com.au/testimonials
+    - contact: http://www.appiphany.com.au/contact
+   
